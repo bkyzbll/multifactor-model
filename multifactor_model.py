@@ -483,11 +483,11 @@ class FundFactorAnalysisSystem:
 
 if __name__ == "__main__":
     system = FundFactorAnalysisSystem(
-        fund_path='/Users/dhk_kaka22/Desktop/经理能力/fund_data.csv',
-        base_mnt_path='/Users/dhk_kaka22/Desktop/quant_database/930950_mnt.xlsx',
-        base_daily_path='/Users/dhk_kaka22/Desktop/quant_database/930950_daily.xlsx',
-        riskfree_path='/Users/dhk_kaka22/Desktop/quant_database/riskfree.csv',
-        theme_fund_path='/Users/dhk_kaka22/Desktop/quant_database/fundid_theme_wind.csv'
+        fund_path='./fund_data.csv',
+        base_mnt_path='./930950_mnt.xlsx',
+        base_daily_path='./930950_daily.xlsx',
+        riskfree_path='./riskfree.csv',
+        theme_fund_path='./fundid_theme_wind.csv'
     )
     
     system.run_analysis()
